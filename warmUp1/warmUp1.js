@@ -31,6 +31,7 @@ function agePerSeconds(age){
  
 =======
 // your code is here
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 //1
@@ -86,3 +87,5 @@ function average(arr) {
 
 >>>>>>> c07720253c870302a2825e47eeb180a082689769
 >>>>>>> 2b098376bbe5f40b97b1dad225ca4eb6a867d63d
+=======
+>>>>>>> b8a430e8ea2c4d0e1e78f81ef8a28a628ba965c6
