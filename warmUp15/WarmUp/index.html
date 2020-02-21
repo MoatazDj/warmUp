@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<link rel="stylesheet"  href="main.css"/>
+<head>
+</head>
+
+<body>
+    <button id="cl" type="button">Click Me!</button>
+    <ul class="menu">
+        <li>hey</li>
+        <li>whoa</li>
+        <li><strong>this is javascript</strong></li>
+    </ul>
+    
+    
+    <script type="text/javascript" src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+    $('.menu li').on('click', function(){
+    $(this).addClass('active');
+});
+    </script>
+</body>
+</html>
