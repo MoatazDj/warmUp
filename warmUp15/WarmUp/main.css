@@ -7,11 +7,21 @@
     overflow: hidden;
     list-style-type: none;
     text-align: center;
-    
 }
-#cl.hover{
-    color: brown;
-}
-body{
+
+.body{
     background-color: cyan;
+}
+.list{
+    background-color: orange;
+}
+
+#kl{
+    width: 680px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+    float: center;
+    overflow: hidden;
+    list-style-type: none;
 }

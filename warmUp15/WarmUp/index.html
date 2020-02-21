@@ -6,20 +6,24 @@
 </head>
 
 <body>
-    <button id="cl" type="button">Click Me!</button>
+    <button id="cl" type="button" align = 'center'>Click Me!</button>
+    <input type="text" id="kl">
     <ul class="menu">
-        <li>hey</li>
-        <li>whoa</li>
-        <li><strong>this is javascript</strong></li>
+       
     </ul>
     
     
     <script type="text/javascript" src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script>
-    $('.menu li').on('click', function(){
-    $(this).addClass('active');
+    $(document).ready(function(){
+        $('button').click(function(){
+            var message = $('input').val()
+            $('.menu').append('<li class = "body">' + message + '</li>')
+            $('li').toggleClass('body list')
+        })
 });
+    
     </script>
 </body>
 </html>
